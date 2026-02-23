@@ -60,7 +60,7 @@ export default function Authentication(props) {
         type="email"
       ></input>
       <input
-        placeholder="*****"
+        placeholder="Password"
         value={password}
         onChange={(e) => {
           setPassword(e.target.value);

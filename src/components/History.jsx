@@ -1,5 +1,5 @@
 import { useAuth } from "../context/AuthContext";
-import { calculateCurrentCaffeineLevel, coffeeConsumptionHistory, getCaffeineAmount, timeSinceConsumption } from "../utils";
+import { calculateCurrentCaffeineLevel, getCaffeineAmount, timeSinceConsumption } from "../utils";
 
 export default function History() {
     const { globalData } = useAuth()

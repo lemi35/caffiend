@@ -96,7 +96,7 @@ export default function CoffeeForm(props) {
                     setSelectedCoffee(null)
                 }} className={"button-card " + (showCoffeeTypes ? ' coffee-button-selected' : ' ')}>
                     <h4>Other</h4>
-                    <p>n/a</p>
+                    <p>Add coffee from the menu below</p>
                 </button>
             </div>
             {showCoffeeTypes && (
@@ -116,7 +116,7 @@ export default function CoffeeForm(props) {
             <h4>Add the cost ($)</h4>
             <input className="w-full" type="number" value={coffeeCost} onChange={(e) => {
                 setCoffeeCost(e.target.value)
-            }} placeholder="4.50" />
+            }} placeholder="price" />
             <h4>Time since consumption</h4>
             <div className="time-entry">
                 <div>
